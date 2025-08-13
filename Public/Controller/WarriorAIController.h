@@ -21,7 +21,7 @@ public:
 
 	AWarriorAIController(const FObjectInitializer& ObjectInitializer);
 	//~ Begin IGenericTeamAgentInterface Interface.
-	virtual ETeamAttitude::Type GetTeamAttitudeTowards(const AActor& Other) const override; // °¨ÁöµÈ Àû°úÀÇ Team ID ºñ±³
+	virtual ETeamAttitude::Type GetTeamAttitudeTowards(const AActor& Other) const override; // ê°ì§€ëœ ì ê³¼ì˜ Team ID ë¹„êµ
 	//~ Begin IGenericTeamAgentInterface Interface.
 
 protected:
@@ -44,3 +44,4 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Detour Crowd Avoidance Config",meta = (EditCondition = "bEnableDetourCrowdAvoidance"))
 	float CollisionQueryRange = 600.f;
 };
+
