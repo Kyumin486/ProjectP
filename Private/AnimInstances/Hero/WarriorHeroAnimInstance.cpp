@@ -15,7 +15,7 @@ void UWarriorHeroAnimInstance::NativeThreadSafeUpdateAnimation(float DeltaSecond
 {
 	Super::NativeThreadSafeUpdateAnimation(DeltaSeconds);
 
-	// Ä³¸¯ÅÍ À¯ÈÄ »óÅÂ ÁøÀÔ
+	// ìºë¦­í„° ìœ í›„ ìƒíƒœ ì§„ì…
 
 	if (bHasAcceleration)
 	{
@@ -32,3 +32,4 @@ void UWarriorHeroAnimInstance::NativeThreadSafeUpdateAnimation(float DeltaSecond
 	
 
 }
+
