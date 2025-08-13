@@ -131,7 +131,7 @@ bool UWarriorFunctionLibrary::IsValidBlock(AActor* InAttacker, AActor* InDefende
 
 	const float DotResult = FVector::DotProduct(InAttacker->GetActorForwardVector(), InDefender->GetActorForwardVector());
 
-	// ºí·Ï °á°ú Ãâ·Â
+	// ë¸”ë¡ ê²°ê³¼ ì¶œë ¥
 	//const FString DotResultPrint = FString::Printf(TEXT("DotResult : %f %s"), DotResult, DotResult<-0.1f ? TEXT("Block"):TEXT("Fail"));
 	//Debug::Print(DotResultPrint,DotResult < -0.1f ? FColor::Green : FColor::Red);
 
@@ -210,3 +210,4 @@ UCharacterMovementComponent* UWarriorFunctionLibrary::GetCharacterMovementCompon
 	}
 	return nullptr;
 }
+
