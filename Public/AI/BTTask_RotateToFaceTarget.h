@@ -38,7 +38,7 @@ class PROJECTP_API UBTTask_RotateToFaceTarget : public UBTTaskNode
 
 	virtual EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)override;
 	virtual void TickTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds)override;
-	bool HasReachedAnglePrecision(APawn* QueryPawn, AActor* TargetActor)const; // È¸Àü °ª Á¤È®µµ Çâ»ó
+	bool HasReachedAnglePrecision(APawn* QueryPawn, AActor* TargetActor)const; // íšŒì „ ê°’ ì •í™•ë„ í–¥ìƒ
 
 	UPROPERTY(EditAnywhere, Category = "Face Target")
 	float AnglePrecision;
@@ -58,3 +58,4 @@ class PROJECTP_API UBTTask_RotateToFaceTarget : public UBTTaskNode
 	//~ End UBTNode Interface
 
 };
+
