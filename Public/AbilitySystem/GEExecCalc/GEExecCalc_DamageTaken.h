@@ -19,6 +19,7 @@ public:
 
 	UGEExecCalc_DamageTaken();
 
-	// µ¥¹ÌÁö °è»ê ÇÔ¼ö ÀçÁ¤ÀÇ
+	// ë°ë¯¸ì§€ ê³„ì‚° í•¨ìˆ˜ ì¬ì •ì˜
 	virtual void Execute_Implementation(const FGameplayEffectCustomExecutionParameters& ExecutionParams, FGameplayEffectCustomExecutionOutput& OutExecutionOutput) const override;
 };
+
