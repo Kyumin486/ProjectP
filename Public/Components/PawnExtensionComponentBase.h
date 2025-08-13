@@ -17,7 +17,7 @@ protected:
 	template<class T>
 	T* GetOwningPawn()const
 	{
-		static_assert(TPointerIsConvertibleFromTo<T, APawn>::Value); // TÀÇ Å¸ÀÔ °Ë»ç
+		static_assert(TPointerIsConvertibleFromTo<T, APawn>::Value); // Tì˜ íƒ€ì… ê²€ì‚¬
 		return CastChecked<T>(GetOwner());
 	}
 
@@ -33,3 +33,4 @@ protected:
 		return GetOwningPawn<APawn>()->GetController<T>();
 	}
 };
+
